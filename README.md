@@ -10,6 +10,7 @@
 
 ## Homework Updates
 
-1. w1 - none
-
-2. w2 - double the number of balls on mouse click
+* w01 - none
+* w02 - double the number of balls on mouse click
+* w03_01 - wind pushes balls off cliff
+* w03_02 - 
