@@ -13,4 +13,6 @@
 * w01 - none
 * w02 - double the number of balls on mouse click
 * w03_01 - wind pushes balls off cliff
-* w03_02 - 
+* w03_02 - moving self portrait
+
+![self portrait](https://github.com/jacqswu/wuj643_dtOF_2017/images/w03_h02_portrait.gif)
