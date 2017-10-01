@@ -15,4 +15,4 @@
 * w03_01 - wind pushes balls off cliff
 * w03_02 - moving self portrait
 
-![self portrait](https://github.com/jacqswu/wuj643_dtOF_2017/images/w03_h02_portrait.gif)
+![self portrait](https://github.com/jacqswu/wuj643_dtOF_2017/blob/master/images/w03_h02_portrait.gif)
