@@ -10,7 +10,8 @@
 
 ## Homework Updates
 
-* w01 - none
-* w02 - double the number of balls on mouse click
+* w01_00 - none
+* w02_01 - double the number of balls on mouse click
 * w03_01 - wind pushes balls off cliff
 * w03_02 - moving self portrait
+* w05_01 - jellyfish
