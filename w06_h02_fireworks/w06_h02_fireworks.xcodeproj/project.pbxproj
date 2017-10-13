@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2ADCAC1F90FED70024FD84 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D2ADCAB1F90FED70024FD84 /* Ball.cpp */; };
 		2FE48D551F892866001F7FD4 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE48D511F892866001F7FD4 /* Particle.cpp */; };
 		2FE48D561F892866001F7FD4 /* ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE48D531F892866001F7FD4 /* ParticleSystem.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -44,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D2ADCAB1F90FED70024FD84 /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Ball.cpp; path = ../../w02_h01_doubleBalls/src/Ball.cpp; sourceTree = "<group>"; };
+		1D2ADCAD1F90FEE90024FD84 /* Ball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = ../../w02_h01_doubleBalls/src/Ball.h; sourceTree = "<group>"; };
 		2FE48D511F892866001F7FD4 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
 		2FE48D521F892866001F7FD4 /* Particle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Particle.hpp; sourceTree = "<group>"; };
 		2FE48D531F892866001F7FD4 /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystem.cpp; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				2FE48D521F892866001F7FD4 /* Particle.hpp */,
 				2FE48D531F892866001F7FD4 /* ParticleSystem.cpp */,
 				2FE48D541F892866001F7FD4 /* ParticleSystem.hpp */,
+				1D2ADCAB1F90FED70024FD84 /* Ball.cpp */,
+				1D2ADCAD1F90FEE90024FD84 /* Ball.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -219,6 +224,7 @@
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				2FE48D551F892866001F7FD4 /* Particle.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				1D2ADCAC1F90FED70024FD84 /* Ball.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

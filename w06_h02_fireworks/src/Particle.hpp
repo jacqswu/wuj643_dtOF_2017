@@ -3,7 +3,7 @@
 //  ParticleSystem
 //
 //  Created by Tyler on 10/5/17.
-//
+//  Edited by Jacqueline on 10/12/17.
 //
 
 #pragma once

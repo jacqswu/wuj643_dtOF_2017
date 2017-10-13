@@ -3,14 +3,14 @@
 //  ParticleSystem
 //
 //  Created by Tyler on 10/5/17.
-//
+//  Edited by Jacqueline on 10/12/17.
 //
 
 #include "ParticleSystem.hpp"
 
 ParticleSystem::ParticleSystem(ofVec3f _pos){
 	pos = _pos;
-	lifespan = 10.;
+	lifespan = 3.;
 }
 
 void ParticleSystem::update(ofVec3f force, float timeDiff){ // time elapsed since last frame
@@ -31,7 +31,7 @@ void ParticleSystem::update(ofVec3f force, float timeDiff){ // time elapsed sinc
 	}
 	
 	// erase particles until we have a manageable size
-	while (particles.size() > 1000){
+	while (particles.size() > 50){
 		particles.erase(particles.begin());
 	}
 	

@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ParticleSystem.hpp"
+#include "Ball.h"
 
 class ofApp : public ofBaseApp{
 
@@ -14,7 +15,8 @@ public:
 
 	vector<ParticleSystem> systems;
 	ofVec3f gravity;
-	
+    ofVec3f pos, vel;
 	float lastUpdateTime;	// track frame-by-frame time diff
 		
+    vector<Ball> balls;
 };
