@@ -15,3 +15,7 @@
 * w03_01 - wind pushes balls off cliff
 * w03_02 - moving self portrait
 * w05_01 - jellyfish
+* w06_01 - milky way
+* w06_02 - fireworks
+* w08_mt - borealis
+* w09_01 - milky way 3D
