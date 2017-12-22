@@ -33,6 +33,5 @@ public:
     ofFbo fbo;
     float fboTime;
 	
-	
 		
 };

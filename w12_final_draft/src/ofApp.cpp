@@ -11,6 +11,8 @@ void ofApp::setup(){
 	for (int i = 0; i < numBalls; i++) {
 		balls.push_back(Ball());
 	}
+    
+    vid.setup(640,480);
 
 }
 
@@ -21,18 +23,24 @@ void ofApp::update(){
 	for (int i = 0; i < balls.size(); i++) {
 		balls[i].update();
 	}
+    
+    vid.update();
 
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-	for (int i = 0; i < balls.size(); i++) {
-		balls[i].draw();
-	}
-
+    for (int i = 0; i < balls.size(); i++) {
+        balls[i].draw();
+    }
+    
+    ofSetColor(255);
+    vid.draw(0,0,ofGetWidth(),ofGetHeight());
+    
+    
 	// now, take a "screenshot" of the frame
-	screenImage.grabScreen(0,0,ofGetWidth(),ofGetHeight());
+    screenImage.grabScreen(0,0,ofGetWidth(),ofGetHeight());
 	
 	// resize the screenshot to 40x40 pixels
 	
